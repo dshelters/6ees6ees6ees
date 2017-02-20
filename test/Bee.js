@@ -6,6 +6,7 @@ describe('Bee class functionality', () => {
   /*  Overwrite methods from superclass  */
 
   it('should have an `age` property that is set to `5`', () => {
+    debugger;
     expect(bee.age).to.equal(5);
   });
 
